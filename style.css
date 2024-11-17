@@ -1,0 +1,298 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: sf pro;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    background-color: #F5F5F7;
+}
+.page1{
+    width: 100vw;
+    height: 100vh;
+    background-color: #F5F5F7;
+}
+.nav{
+    display: flex;
+    background-color: #ffffff56;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    height: 7%;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    backdrop-filter: blur(30px);
+}
+.nav a{
+    text-decoration: none;
+    color: #fae9e9;
+    font-size: .9vw;
+    
+}
+.nav i{
+    color: #000000;
+}
+.land{
+   width: 100%;
+   height: 100vh;
+   position: relative;
+}
+.land video{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.land-text{
+ 
+    position: absolute;
+    top: 64%;
+    left: 37.5%;
+ 
+    text-align: center;
+    color: #F5F5F7;
+  
+}
+.land-text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 4vw;
+    font-weight: 400;
+  
+}
+.land-text h2{
+    margin-top: 3vh;
+    font-weight: 400;
+}
+.land-text button{
+    padding: 1vw;
+    border: none;
+    border-radius: 40px;
+    margin-top: 3vh;
+}
+.page2{
+    width: 100vw;
+    height: 100vh;
+    background-color: darkseagreen;
+    background-color: #000000;
+    position: relative;
+}
+.page2 img{
+    object-fit: cover;
+    transform: translateX(-50%);
+    position: absolute;
+    left: 50%;
+    top: 5%;
+    width: 100%;
+    height: 100%;
+}
+.page2 button{
+    background-color: blue;
+    padding: 1vw;
+    border-radius: 40px;
+    position: absolute;
+    left: 50%;
+    width: 100px;
+    transform: translateX(-50%);
+    bottom: 3%;
+    border: none;
+    color: #F5F5F7;
+    
+}
+.page3{
+    width: 100vw;height: 100vh;
+    background: rgb(0,0,0);
+    position: relative;
+    background: linear-gradient(-180deg, rgba(0,0,0,1) 0%, rgba(10,106,187,1) 36%, rgba(255,255,255,1) 100%);
+}
+.page3 img{
+    object-fit: cover;
+    width: 95%;
+ 
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+ height: 90%;
+ bottom: 0%;
+ padding-top: 15vh;
+}
+.page3-text{
+    position: absolute;
+    transform: translateX(-50%);
+    left: 50%;
+    top: 8%;
+    text-align: center;
+    color: #F5F5F7;
+  
+
+}
+.page3-text h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 5vw;
+    font-weight: 400;
+}
+.page3-text h2{
+    font-weight: 600;
+    margin-top: 1vh;
+    font-size: 2.4vw;
+    letter-spacing: 2px;
+}
+.page3-text button{
+    margin-top: 3vh;
+    width: 150px;
+    border-radius: 30px;
+    padding: 1.3vw;
+    border: none;
+    color: #000000;
+    font-size: 1.2vw;
+}
+.but{
+ 
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 2.6vw;
+}
+.page4{
+    width: 100vw;
+    height: 90vh;
+    background-color:#fff ;
+    position: relative;
+display: flex;
+padding: 1vw;
+gap: .5vw;
+}
+.page4-l{
+width: 50%;
+height: 100%;
+background: rgb(173,220,238);
+background: linear-gradient(-180deg, rgba(173,220,238,1) 0%, rgba(233,243,245,1) 100%);
+
+}
+.page4-r{
+    width: 50%;
+height: 100%;
+background-color: rgb(0, 255, 21);
+position: relative;
+}
+.page4-l img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    object-fit: cover;
+}
+.page4-r img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.l4text{
+    position: absolute;
+    width: 48%;
+   
+    top: 10%;
+
+  
+    text-align: center;
+}
+.l4text h1{
+    font-size: 3vw;
+    font-family: SF Pro Text", "SF Pro Icons", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.l4text h2{
+    font-size: 1.5vw;
+    font-weight: 400;
+}
+.but1{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    left: 50%;
+    position: absolute;
+    
+    transform: translateX(-50%);
+
+}
+.but1 button{
+    margin-top: 3vh;
+    width: 100px;
+   
+    border-radius: 30px;
+    gap: 5px;
+    padding: .7vw;
+    border: none;
+    color: #000000;
+    font-size: 1vw;
+}
+.footer{
+    height: 90vh;
+    background-color: #F5F5F7;
+    width: 100vw;
+    padding-top: 1vh;
+    
+}
+p{
+    color: #7E7E7F;
+    font-size: 12px;
+    font-weight: 400;
+   letter-spacing: 1px;
+    line-height: 115%;
+
+   font-family:Arial, Helvetica, sans-serif ;
+}
+.foottext{
+    position: absolute;
+ 
+    width: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.footer2{
+    width: 100vw;
+    height: 84vh;
+    border-top: #7E7E7F solid 1px;
+    display: flex;
+   
+   display: flex;
+   justify-content: space-between;
+   padding-left: 15%;
+   padding-right: 15%;
+  padding-top: 2vh;
+
+
+}
+.footer2 h4{
+    color: #2f2f30;
+}
+.foot1{
+    
+    text-align:start;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+}
+.foot1 a{
+    text-decoration: none;
+    text-align: start;
+    color: #7E7E7F;
+    font-size:12px ;
+}
+.shop{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.walet{
+    display: flex;
+    gap: 15px;
+    flex-direction: column;
+}
+.new{
+    display: flex;
+  position: relative;
+  gap: 15px;
+    flex-direction: column;
+}
